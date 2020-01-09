@@ -12,16 +12,15 @@ Your task is to write code to process the downloaded data (HINT: Look for
 order under a heading of the gender of their owner.
 
 Example:
-Male
 
-    Angel
-    Molly
-    Tigger
+* Male
+    - Angel
+    - Molly
+    - Tigger
 
-Female
-
-    Gizmo
-    Jasper
+* Female
+    - Gizmo
+    - Jasper
     
 
 Once you have parsed the data correctly, display it on screen in a table
