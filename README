@@ -1,2 +1,37 @@
-Basic scaffolding for the AGL developer interview test. This is only meant to give interviewees a
-head start and isn't intended to be representative of a high quality codebase.
+# Programming challenge
+
+A JSON web service has been set up at the url:
+http://agl-developer-test.azurewebsites.net/people.json
+
+
+The Android project you're looking at has been set up as a very basic app which
+makes a request to the above service and downloads the data.
+
+Your task is to write code to process the downloaded data (HINT: Look for
+`TODO` comments in the code) and output a list of all the cats in alphabetical
+order under a heading of the gender of their owner.
+
+Example:
+Male
+
+    Angel
+    Molly
+    Tigger
+
+Female
+
+    Gizmo
+    Jasper
+    
+
+Once you have parsed the data correctly, display it on screen in a table
+resembling the above. 
+
+Notes:
+
+
+    - The provided project contains bugs, we expect you to fix them.
+    - Assume there can be any number of genders.
+    - Use industry best practices.
+    - Use the code to showcase your skill.
+    
