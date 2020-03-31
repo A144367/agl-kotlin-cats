@@ -9,7 +9,7 @@ class MainUseCases(private val ownerRepository: OwnerRepository): MainFacade {
         ownerRepository.get(object: Callback<List<Owner>> {
             override fun onSuccess(data: List<Owner>) {
                 // TODO: manipulate data as appropriate and feed into callback
-                callback.onSuccess(Any())
+                callback.onSuccess(data)
             }
 
             override fun onError(error: Throwable) {
