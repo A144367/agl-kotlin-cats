@@ -23,7 +23,7 @@ Example:
     - Jasper
     
 
-Once you have parsed the data correctly, display it on screen in a table
+Once you have parsed the data correctly, display it on screen in a list
 resembling the above. 
 
 Notes:
